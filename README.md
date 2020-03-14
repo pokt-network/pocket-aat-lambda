@@ -44,7 +44,13 @@ Clone the repo locally.
 
 Your local environment should be running node 12.15.0 to match the version available on Lambda and the version requirements of the associated libraries. For an easy way to install and switch between multiple node versions, see [the easy node version switcher, N](https://github.com/tj/n).
 
-After cloning, change directory to the repo and run:
+After cloning, change directory to the repo and edit *generator.js*. You must put in the public key(s) and private key necessary to generate the AAT for your application:
+
+<img src="https://user-images.githubusercontent.com/16605170/76672661-98e81f80-655b-11ea-9ca0-06f6db358557.png" alt="Put your keys here" />
+
+See the [Pocket-AAT-JS library](https://github.com/pokt-network/pocket-aat-js) for more details.
+
+Once complete, install the packages:
 
 ```
 npm install
