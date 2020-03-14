@@ -1,0 +1,47 @@
+{
+  "name": "pocket-aat-lambda",
+  "version": "0.0.1",
+  "description": "Lambda function to generate AATs",
+  "main": "generator.js",
+  "engine": {
+    "node": "12.15.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokt-network/pocket-aat-lambda.git"
+  },
+  "author": "Pocket Network",
+  "authors": [
+      {
+          "name": "Pabel Nunez Landestoy",
+          "email": "pabel@pokt.network",
+          "homepage": "https://github.com/pabelnl"
+      },
+      {
+          "name": "Luis C. de León",
+          "email": "luis@pokt.network",
+          "homepage": "https://github.com/luyzdeleon"
+      },
+      {
+          "name": "Wilson Garcia",
+          "email": "wilson@pokt.network",
+          "homepage": "https://github.com/wgarcia4190"
+      },
+      {
+          "name": "Alex Firmani",
+          "email": "alex@pokt.network",
+          "homepage": "https://github.com/nymd"
+      }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pokt-network/pocket-aat-lambda/issues"
+  },
+  "homepage": "https://github.com/pokt-network/pocket-aat-lambda#readme",
+  "dependencies": {
+    "@pokt-network/aat-js": "github:pokt-network/pocket-aat-js"
+  }
+}
