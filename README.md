@@ -65,7 +65,7 @@ Name it aatGenerator running under Node 12.x:
 
 <img src="https://user-images.githubusercontent.com/16605170/76672242-77396900-6558-11ea-8516-d7640ca627ad.png" alt="Create Lambda function" />
 
-After the function and associated resources are created, upload the function and change the handler name on the next screen:
+After the function and associated resources are created, upload the function and change the handler name on the next screen. The handler should be named **generator.generateAAT**:
 
 <img src="https://user-images.githubusercontent.com/16605170/76672350-3ee65a80-6559-11ea-9f83-508bd33b7682.png" alt="Function editing" />
 
